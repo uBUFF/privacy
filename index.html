@@ -13,110 +13,199 @@
       background: #0d0d0d;
       padding: 2rem 1rem;
     }
-    .container {
-      max-width: 760px;
-      margin: 0 auto;
-    }
-    h1 {
-      font-size: 2rem;
-      color: #ffffff;
-      margin-bottom: 0.25rem;
-    }
-    .subtitle {
-      color: #888;
-      font-size: 0.95rem;
-      margin-bottom: 2.5rem;
-    }
+    .container { max-width: 760px; margin: 0 auto; }
+    h1 { font-size: 2rem; color: #ffffff; margin-bottom: 0.25rem; }
+    .subtitle { color: #888; font-size: 0.95rem; margin-bottom: 2.5rem; }
     h2 {
-      font-size: 1.25rem;
-      color: #ffffff;
-      margin-top: 2rem;
-      margin-bottom: 0.75rem;
-      padding-bottom: 0.3rem;
-      border-bottom: 1px solid #222;
+      font-size: 1.25rem; color: #ffffff; margin-top: 2rem;
+      margin-bottom: 0.75rem; padding-bottom: 0.3rem; border-bottom: 1px solid #222;
     }
-    p, li {
-      margin-bottom: 0.75rem;
-      font-size: 0.95rem;
-    }
-    ul {
-      padding-left: 1.5rem;
-      margin-bottom: 1rem;
-    }
-    a {
-      color: #6ea8fe;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
+    h3 { font-size: 1.05rem; color: #d8d8d8; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+    p, li { margin-bottom: 0.75rem; font-size: 0.95rem; }
+    ul { padding-left: 1.5rem; margin-bottom: 1rem; }
+    a { color: #6ea8fe; text-decoration: none; }
+    a:hover { text-decoration: underline; }
     .highlight {
-      background: #1a1a2e;
-      border-left: 3px solid #6ea8fe;
-      padding: 1rem 1.25rem;
-      border-radius: 4px;
-      margin: 1.5rem 0;
+      background: #1a1a2e; border-left: 3px solid #6ea8fe;
+      padding: 1rem 1.25rem; border-radius: 4px; margin: 1.5rem 0;
     }
-    .highlight p {
-      margin-bottom: 0;
+    .highlight p { margin-bottom: 0; }
+    .draft-banner {
+      background: #2b1a1a; border-left: 3px solid #cf6679;
+      padding: 0.75rem 1rem; border-radius: 4px; margin: 0 0 1.5rem 0;
+      font-size: 0.85rem; color: #f0b8be;
     }
+    table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }
+    th, td { border: 1px solid #222; padding: 0.5rem 0.75rem; text-align: left; vertical-align: top; }
+    th { background: #1a1a1a; color: #fff; }
+    .nav { margin-bottom: 1.5rem; font-size: 0.9rem; }
+    .nav a { margin-right: 1rem; }
     footer {
-      margin-top: 3rem;
-      padding-top: 1.5rem;
-      border-top: 1px solid #222;
-      color: #666;
-      font-size: 0.85rem;
+      margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #222;
+      color: #666; font-size: 0.85rem;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>uBUFF Privacy Policy</h1>
-    <p class="subtitle">Effective Date: April 13, 2026</p>
-
-    <div class="highlight">
-      <p><strong>In short:</strong> uBUFF processes your game data locally on your PC. The core AI companion runs on your machine. Optional premium features may send limited data (such as game screenshots) to cloud AI services for analysis. We do not sell your data.</p>
+    <div class="nav">
+      <a href="/privacy/">Privacy Policy</a>
+      <a href="/privacy/terms.html">Terms of Service</a>
     </div>
 
-    <h2>1. What Is uBUFF</h2>
-    <p>uBUFF is a companion app for PC games, built on the Overwolf (ow-electron) platform. It reads your local game save files and provides real-time game intelligence on a second monitor. uBUFF offers a free ad-supported tier as well as optional paid subscription tiers with additional features.</p>
+    <h1>uBUFF Privacy Policy</h1>
+    <p class="subtitle">Last Updated: April 20, 2026 &middot; Effective Date: April 20, 2026</p>
 
-    <h2>2. What Data We Access</h2>
-    <p>uBUFF accesses the following data, all of which stays on your local machine:</p>
+    <div class="draft-banner">
+      <strong>Draft &mdash; Not Legal Advice.</strong> This document is a draft pending licensed attorney review. It should be reviewed by an attorney before being treated as a final, binding policy.
+    </div>
+
+    <h2>1. Who We Are</h2>
+    <p>uBUFF is operated by Erik Bergh ("we," "us," or "our"), doing business as uBUFF, based in Texas, United States. We provide an AI-powered gaming companion application distributed through the Overwolf platform.</p>
+    <p><strong>Contact:</strong> <a href="mailto:ubuff.official@gmail.com">ubuff.official@gmail.com</a></p>
+
+    <h2>2. Scope</h2>
+    <p>This Privacy Policy applies to:</p>
     <ul>
-      <li><strong>Game save files</strong> &mdash; uBUFF reads save files from your local filesystem (e.g., <code>.ess</code> for Skyrim, <code>.sfs</code> for Starfield, encrypted CD saves). These files are parsed locally and are never uploaded to any server.</li>
-      <li><strong>User preferences</strong> &mdash; Settings and parsed game state are stored locally in <code>%APPDATA%/ubuff/</code>.</li>
-      <li><strong>Local AI processing</strong> &mdash; The AI companion runs entirely on your machine via Ollama (llama3.2:3b). No prompts, game data, or AI responses are transmitted externally. The AI works fully offline.</li>
+      <li>The uBUFF application (Overwolf app)</li>
+      <li>The uBUFF website</li>
+      <li>All related services, including account management and subscription billing</li>
+    </ul>
+    <p>This policy does not apply to third-party platforms and service providers we integrate with (including those listed in Section 6). Please review their privacy policies separately.</p>
+
+    <h2>3. Who Can Use uBUFF</h2>
+    <p>uBUFF is intended for users who are <strong>18 years of age or older</strong>. We do not knowingly collect personal information from individuals under 18. If you believe a minor has provided us personal information, contact us at <a href="mailto:ubuff.official@gmail.com">ubuff.official@gmail.com</a> and we will delete it promptly.</p>
+
+    <h2>4. Data Practices</h2>
+
+    <h3>4.1 Account Data</h3>
+    <p>When you create an account, we collect and store via Supabase:</p>
+    <ul>
+      <li>Email address</li>
+      <li>Hashed password (we never see your plaintext password)</li>
+      <li>Account creation and last-login timestamps</li>
+      <li>Subscription status, if and when paid tiers are offered</li>
     </ul>
 
-    <h2>3. Screen Capture &amp; Cloud AI</h2>
-    <p>uBUFF may capture screenshots of your game screen to provide enhanced AI-powered analysis. When cloud AI features are enabled (available on paid tiers), these screenshots are sent to third-party AI services for processing. Screenshots are used solely for gameplay analysis and are not stored permanently on our servers or used for any other purpose.</p>
+    <h3>4.2 Local Data Accessed by uBUFF</h3>
+    <p>Under Section 3.1 of our Terms of Service, you authorize uBUFF to read files on your computer that are relevant to operating the service, including game save files, configuration files, log files, and plug-in metadata. <strong>As of the Effective Date, the content of these files is processed exclusively on your computer by local software and is not transmitted to us or to any third-party AI service.</strong> We reserve the right to introduce cloud-based processing in future versions; any such change will be accompanied by an update to this Policy and, where required by law, your affirmative consent.</p>
+
+    <h3>4.3 Usage Data</h3>
+    <p>When you use the app, we collect non-content usage signals:</p>
     <ul>
-      <li>Screenshot capture is used only for AI gameplay analysis and is clearly indicated when active.</li>
-      <li>Cloud AI processing is available on paid subscription tiers. Free-tier users use the local AI only, with no data leaving the device.</li>
-      <li>We do <strong>not</strong> hook into game memory or inject code into game processes.</li>
-      <li>We do <strong>not</strong> sell, share, or use your game data for advertising or marketing purposes.</li>
+      <li>Advice request events (timestamp, game identifier &mdash; e.g., "skyrim-se")</li>
+      <li>Feature interaction events (e.g., voice input used, map opened)</li>
+      <li>Session start/end timestamps</li>
+      <li>App version, operating system, and hardware class (for debugging and compatibility)</li>
+    </ul>
+    <p>These signals help us maintain the service and detect abuse. They do not contain the content of your game data or your conversations.</p>
+
+    <h3>4.4 Advertising Data</h3>
+    <p>uBUFF is ad-supported. Third-party advertising networks (including the Overwolf advertising platform) may collect, through their own technology operating inside the uBUFF application, data necessary to select, display, and measure advertisements, which may include advertising identifiers, approximate geographic location, session duration, and ad impression and click events. This data is collected and processed by the ad network under its own privacy policy. uBUFF receives only aggregate reporting and does not receive user-level advertising data.</p>
+
+    <h3>4.5 Payment Data (if applicable)</h3>
+    <p>If uBUFF introduces paid services in a future version, payment processing will be handled by a third-party payment processor (currently Tebex). We will not collect or store credit card numbers or payment card information. We will receive only subscription status confirmations from the processor.</p>
+
+    <h3>4.6 Technical and Diagnostic Data</h3>
+    <ul>
+      <li>IP address (collected by hosting infrastructure for authentication, rate-limiting, and abuse prevention; retained per our hosting providers' policies)</li>
+      <li>App error logs and crash reports. Crash reports may include technical context such as stack traces, operating-system version, and uBUFF version. We take reasonable steps to avoid collecting your personal file contents in these reports, but we cannot guarantee their complete exclusion.</li>
     </ul>
 
-    <h2>4. Account &amp; Authentication</h2>
-    <p>An account is required to use uBUFF. Account data (email address and authentication credentials) is stored securely via our backend service. Account information is used solely for authentication, subscription management, and delivering app features.</p>
+    <h3>4.7 Data We Do Not Collect</h3>
+    <p>Except as described above, uBUFF does not:</p>
+    <ul>
+      <li>Read memory from any running game process</li>
+      <li>Record keystrokes or mouse input</li>
+      <li>Capture, record, or transmit your in-game voice or text communications</li>
+      <li>Sell your personal data to data brokers</li>
+    </ul>
 
-    <h2>5. Third-Party Services</h2>
-    <p><strong>Overwolf Platform:</strong> uBUFF runs within the Overwolf/ow-electron framework. Overwolf may collect platform-level data (such as app usage statistics) as described in the <a href="https://www.overwolf.com/legal/privacy/" target="_blank" rel="noopener">Overwolf Privacy Policy</a>. uBUFF itself does not control or have access to data collected by the Overwolf platform.</p>
-    <p><strong>Advertising:</strong> uBUFF displays ads through Overwolf's built-in ad system (owadview). Overwolf and its ad partners handle ad serving and may collect standard ad-related data (such as ad impressions and device identifiers) in accordance with their own privacy policies. uBUFF does not independently collect or transmit any user data for ad targeting.</p>
+    <h2>5. How We Use Your Data</h2>
+    <table>
+      <tr><th>Data</th><th>Purpose</th><th>Legal Basis</th></tr>
+      <tr><td>Email, hashed password</td><td>Account creation and authentication</td><td>Contract performance</td></tr>
+      <tr><td>Usage events</td><td>Service maintenance, abuse prevention, analytics</td><td>Legitimate interest</td></tr>
+      <tr><td>Technical and diagnostic data</td><td>Debugging, crash analysis, fraud prevention</td><td>Legitimate interest</td></tr>
+      <tr><td>Advertising data (collected by ad network)</td><td>Ad selection, display, and measurement (see Section 4.4)</td><td>Legitimate interest / consent</td></tr>
+      <tr><td>Payment data (if applicable)</td><td>Processing paid subscriptions</td><td>Contract performance</td></tr>
+    </table>
+    <p>We do not sell your personal data to data brokers. We do not build user-level advertising profiles ourselves; any advertising personalization is performed by third-party ad networks operating under their own privacy policies as described in Sections 4.4 and 6.</p>
 
-    <h2>6. Data Storage</h2>
-    <p>All user data is stored locally on your computer in <code>%APPDATA%/ubuff/</code>. No data is stored on remote servers. You can delete this folder at any time to remove all uBUFF data from your system.</p>
+    <h2>6. Third-Party Services</h2>
+    <p>uBUFF currently relies on the following third-party service providers. The specific set of providers may change as the service evolves.</p>
+    <table>
+      <tr><th>Service</th><th>Purpose</th><th>Privacy Policy</th></tr>
+      <tr><td><strong>Overwolf</strong></td><td>App distribution and third-party advertising</td><td><a href="https://www.overwolf.com/legal/privacy/" target="_blank" rel="noopener">overwolf.com/legal/privacy</a></td></tr>
+      <tr><td><strong>Supabase</strong></td><td>Authentication and account database</td><td><a href="https://supabase.com/privacy" target="_blank" rel="noopener">supabase.com/privacy</a></td></tr>
+      <tr><td><strong>Railway</strong></td><td>Backend hosting infrastructure</td><td><a href="https://railway.app/legal/privacy" target="_blank" rel="noopener">railway.app/legal/privacy</a></td></tr>
+      <tr><td><strong>Tebex</strong></td><td>Subscription payment processing (only applicable if paid tiers are introduced)</td><td><a href="https://www.tebex.io/legal" target="_blank" rel="noopener">tebex.io/legal</a></td></tr>
+      <tr><td><strong>Ollama</strong></td><td>Local AI runtime installed on your own computer; save-file and conversation content is processed locally and is not transmitted to Ollama's servers during ordinary use</td><td><a href="https://ollama.com/" target="_blank" rel="noopener">ollama.com</a></td></tr>
+    </table>
+    <p>Each of these providers processes data under its own privacy policy. We encourage you to review them. We reserve the right to add, remove, or substitute service providers at any time.</p>
 
-    <h2>7. Children's Privacy &amp; Age Appropriateness</h2>
-    <p>uBUFF is not directed at children under the age of 13 and we do not knowingly collect personal information from children. uBUFF is a companion tool for PC games, many of which carry mature content ratings (e.g., ESRB Mature 17+). uBUFF does not control or rate game content; the age-appropriateness of each supported game is determined by the game's publisher and rating board. Parents and guardians should review the ratings of games their children play. If you believe a child under 13 has created an account, please contact us so we can delete it.</p>
+    <h2>7. Data Retention</h2>
+    <table>
+      <tr><th>Data Type</th><th>Retention Period</th></tr>
+      <tr><td>Account data (email, auth)</td><td>Until you delete your account</td></tr>
+      <tr><td>Usage events</td><td>12 months rolling</td></tr>
+      <tr><td>Error logs and crash reports</td><td>90 days</td></tr>
+      <tr><td>Save-file content and AI conversations</td><td>Not stored by uBUFF &mdash; processed locally on your computer in the current version</td></tr>
+      <tr><td>Advertising data</td><td>Retained by the ad network under its own policy</td></tr>
+      <tr><td>Payment records</td><td>As required by law (typically 7 years), only applicable if paid services are used</td></tr>
+    </table>
 
-    <h2>8. Changes to This Policy</h2>
-    <p>We may update this Privacy Policy from time to time. Changes will be posted on this page with a revised effective date. If we introduce features that collect data in future versions, we will update this policy before those features are released.</p>
+    <h2>8. Your Rights</h2>
+    <p>Depending on your location, you may have the following rights:</p>
+    <ul>
+      <li><strong>Access</strong> &mdash; Request a copy of the personal data we hold about you</li>
+      <li><strong>Correction</strong> &mdash; Request correction of inaccurate data</li>
+      <li><strong>Deletion</strong> &mdash; Request deletion of your account and associated data ("right to be forgotten")</li>
+      <li><strong>Data portability</strong> &mdash; Request your data in a portable format (where technically feasible)</li>
+      <li><strong>Objection</strong> &mdash; Object to processing based on legitimate interest</li>
+      <li><strong>Restriction</strong> &mdash; Request that we restrict processing of your data</li>
+    </ul>
+    <p>To exercise any of these rights, contact us at <a href="mailto:ubuff.official@gmail.com">ubuff.official@gmail.com</a>. We will respond within 30 days.</p>
+    <p><strong>Note for EU/EEA users (GDPR):</strong> You have the right to lodge a complaint with your local data protection authority if you believe we have violated your rights.</p>
+    <p><strong>Note for California users (CCPA):</strong> You have the right to know what personal information we collect, delete it, and opt out of its sale. We do not sell personal information.</p>
 
-    <h2>9. Contact</h2>
-    <p>If you have questions or concerns about this Privacy Policy, contact us at:</p>
-    <p><a href="mailto:ubuff.official@gmail.com">ubuff.official@gmail.com</a></p>
+    <h2>9. Data Security</h2>
+    <p>We implement reasonable technical and organizational measures to protect data we control:</p>
+    <ul>
+      <li>Passwords are hashed using industry-standard methods via Supabase Auth</li>
+      <li>Data in transit between uBUFF and our servers is encrypted via HTTPS/TLS</li>
+      <li>Access to production systems is restricted to authorized personnel</li>
+      <li>In the current version, the content of your save files is processed locally on your computer and is not transmitted to us</li>
+    </ul>
+    <p>No system is perfectly secure, and we make no representation or warranty that our security measures will prevent all unauthorized access. If we become aware of a data breach that affects your rights, we will notify you in accordance with applicable law.</p>
+
+    <h2>10. Cookies and Local Storage</h2>
+    <p>The uBUFF application may use local storage on your computer to retain:</p>
+    <ul>
+      <li>Your logged-in session token</li>
+      <li>App preferences (selected game, UI settings, onboarding state)</li>
+      <li>Caches used by the local AI runtime and uBUFF's own data files</li>
+    </ul>
+    <p>uBUFF does not itself use tracking cookies for advertising. However, third-party advertising networks embedded in uBUFF (see Section 4.4) may use their own identifiers, cookies, or device-storage mechanisms for ad selection and measurement, governed by their own privacy policies.</p>
+
+    <h2>11. International Data Transfers</h2>
+    <p>uBUFF is operated from the United States. If you are located outside the US, your data may be transferred to and processed in the United States. By using uBUFF, you consent to this transfer. Where required by law (e.g., GDPR), we rely on Standard Contractual Clauses or other lawful transfer mechanisms.</p>
+
+    <h2>12. Children</h2>
+    <p>uBUFF is not directed at children under 18. We do not knowingly collect personal information from anyone under 18. If you are under 18, do not use this service.</p>
+
+    <h2>13. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. When we do, we will:</p>
+    <ul>
+      <li>Update the "Last Updated" date at the top</li>
+      <li>Notify users via email or in-app notification for material changes</li>
+    </ul>
+    <p>Continued use of uBUFF after changes take effect constitutes acceptance of the updated policy.</p>
+
+    <h2>14. Contact</h2>
+    <p>For privacy questions, rights requests, or concerns:</p>
+    <p><strong>Email:</strong> <a href="mailto:ubuff.official@gmail.com">ubuff.official@gmail.com</a><br>
+    <strong>Response time:</strong> Within 30 days</p>
 
     <footer>
       <p>&copy; 2026 uBUFF. All rights reserved.</p>
